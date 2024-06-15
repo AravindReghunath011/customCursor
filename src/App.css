@@ -97,8 +97,8 @@
   left: 0;
   top: 0;
   path{
-    stroke: rgb(9, 9, 76);
-    stroke-width: 3px;
+    stroke: #2E3192;
+    stroke-width: 10px;
     stroke-linecap: round;
     stroke-linejoin: round;
     fill: none;
