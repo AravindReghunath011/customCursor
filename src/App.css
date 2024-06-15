@@ -1,0 +1,107 @@
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.cursor-trail-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.trail-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.loader-main{
+  width: fit-content;
+  flex-wrap: nowrap;
+  h1{
+    font-size: 100px;
+    white-space: nowrap;
+  }
+  .loader-container{
+    display: flex;
+    
+    box-sizing: border-box;
+
+    
+  }
+}
+
+.loader-animation{
+  height: 100vh;
+  width: 100vw;
+  background: #000;
+  display: flex;
+  place-items: center;
+  place-content: center;
+}
+.pointer{
+  display: flex;
+  align-items: center;
+
+  height: 110px;
+
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+
+.trail{
+  position: fixed;
+  left: 0;
+  top: 0;
+  path{
+    stroke: rgb(9, 9, 76);
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+  }
+}
+
